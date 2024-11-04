@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728180068362,
-  "repoUrl": "https://github.com/syrupy-project/syrupy",
+  "lastUpdate": 1730711945598,
+  "repoUrl": "https://github.com/epenet/syrupy",
   "entries": {
     "Benchmark": [
       {
@@ -7380,6 +7380,51 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.05890796968382964",
             "extra": "mean: 1.2916710886000033 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "6771947+epenet@users.noreply.github.com",
+            "name": "epenet",
+            "username": "epenet"
+          },
+          "committer": {
+            "email": "6771947+epenet@users.noreply.github.com",
+            "name": "epenet",
+            "username": "epenet"
+          },
+          "distinct": true,
+          "id": "b674b868060b98459a5c55c1d7e1e7c9dcd43969",
+          "message": "ci: replace black with ruff formatter",
+          "timestamp": "2024-11-04T10:17:47+01:00",
+          "tree_id": "a4f29053abb0bfd9f5794c6c4c56fa867c5d2d2a",
+          "url": "https://github.com/epenet/syrupy/commit/b674b868060b98459a5c55c1d7e1e7c9dcd43969"
+        },
+        "date": 1730711945001,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_1000x.py::test_1000x_reads",
+            "value": 0.809730812949271,
+            "unit": "iter/sec",
+            "range": "stddev: 0.061746286323704866",
+            "extra": "mean: 1.2349783211999976 sec\nrounds: 5"
+          },
+          {
+            "name": "benchmarks/test_1000x.py::test_1000x_writes",
+            "value": 0.7119751522073058,
+            "unit": "iter/sec",
+            "range": "stddev: 0.1806730612937815",
+            "extra": "mean: 1.4045433985999978 sec\nrounds: 5"
+          },
+          {
+            "name": "benchmarks/test_standard.py::test_standard",
+            "value": 0.7595928262875232,
+            "unit": "iter/sec",
+            "range": "stddev: 0.06555740194333995",
+            "extra": "mean: 1.3164947921999954 sec\nrounds: 5"
           }
         ]
       }
